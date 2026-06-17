@@ -1,6 +1,24 @@
 {
   "name": "hula-hedge-engine",
   "private": true,
-  "scripts": { "test": "vitest run", "test:watch": "vitest" },
-  "devDependencies": { "typescript": "^5.3.3", "vitest": "^2.1.9", "@types/node": "^20" }
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "next": "^15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "recharts": "^2.15.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vitest": "^2.1.9",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19"
+  }
 }
