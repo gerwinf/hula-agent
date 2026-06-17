@@ -1,0 +1,6 @@
+{
+  "name": "hula-hedge-engine",
+  "private": true,
+  "scripts": { "test": "vitest run", "test:watch": "vitest" },
+  "devDependencies": { "typescript": "^5.3.3", "vitest": "^2.1.9", "@types/node": "^20" }
+}
