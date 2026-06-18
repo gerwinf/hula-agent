@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.next/
+.superpowers/
+.env
+.env.local
+*.log
+.gstack/
+*.tsbuildinfo
